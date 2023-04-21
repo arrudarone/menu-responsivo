@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -29,13 +30,15 @@
             </div>
 
             <div class="menu-mobile">
-                <button>
-                    <img class="icon" src="estilo/menu-icon.svg" alt="menu-mobile">
+                <button class="hb"  onclick="menuoculto()">
+                    <span class="material-symbols-outlined" >
+                        menu
+                        </span>
                 </button>
             </div>
         </nav>
 
-        <div class="mobile-menu-item">
+        <div class="mobile-menu-item" id="mobile-menu-item">
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
@@ -43,5 +46,6 @@
             </ul>
         </div>
     </header>
+    <script src="js/js.js"></script>
 </body>
 </html>

@@ -58,3 +58,38 @@ header{
 .mobile-menu-item{
     display: none;
 }
+@media screen and (max-width: 730px){
+
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .icon {
+        display: none;
+    }
+    .mobile-menu-item{
+        display: block;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .button-link{
+        display: none;
+    }
+    .hb{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: aliceblue;
+    }
+    .open{
+        display: block;
+    }
+    .mobile-menu-item > .nav-item {
+        display: block;
+    padding-top: 1.2em ;
+    }
+
+}
